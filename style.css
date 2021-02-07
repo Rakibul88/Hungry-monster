@@ -1,0 +1,36 @@
+
+
+
+.image-logo img{
+   height: 80px;
+}
+
+.nav-items{
+    justify-content: flex-end;
+}
+
+nav li{
+    margin-left: 15px;
+}
+
+.nav-control{
+    position: absolute;
+    height: 60px;
+    left: 405px;
+    top: 133px;
+}
+
+.form-input{
+    width:300px;
+}
+section img{
+    height: 150px;
+    width: 250px;
+}
+section{
+    margin-top: 80px ;
+}
+
+section h4{
+    font-size: 20px;
+}
