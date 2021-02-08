@@ -1,4 +1,6 @@
-
+body{
+    height: 2500px;
+}
 
 
 .image-logo img{
@@ -23,14 +25,80 @@ nav li{
 .form-input{
     width:300px;
 }
-section img{
+.first-sec img{
     height: 150px;
     width: 250px;
 }
-section{
-    margin-top: 80px ;
+.first-sec{
+    margin-top: 80px ; 
 }
 
-section h4{
+
+
+.first-sec h4{
     font-size: 20px;
+}
+
+
+.meal-section{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.meal-namesDiv{
+    border-radius: 8px;
+    height: 200px;
+    width:250px;
+    margin: 20px;
+    background-color: lightgray;
+    box-shadow: 2px 2px 8px black;
+   
+}
+
+.meal-namesDiv p{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.meal-namesDiv button{
+    margin-left: 70px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+}
+
+.meal-items{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.meal-items ul{
+    display: inline;
+    list-style: none;
+} 
+
+.meal-items li{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.meal-items h3{
+    background: linear-gradient(90deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.meal-items button{
+    margin-top: 20px;
+    width: 120px;
 }
